@@ -1,0 +1,29 @@
+name: CuboebPluginDany
+version: 1.0
+main: org.example.Main
+api-version: 1.20
+
+commands:
+  warning:
+    description: Использовать что бы предупредить игрока об неправославных действиях
+    usage: /<command> <player> <time in seconds> <text>
+  sorryOrb:
+    description: Использовать что бы извиниться перед игроком/игроками
+    usage: /<command> <player>
+  topacv:
+    description: проверка ачивка
+    usage: /<command>
+  nextpage:
+    description: ...
+    usage: /<command>
+  read_done:
+    description: ...
+    usage: /<command>
+  trusted:
+    description: Позволяет выдать игроку статус доверенного.
+    usage: /trusted <player> <true|false>
+
+permissions:
+  myplugin.trusted:
+    description: "Позволяет выдать статус *довереный* игроку"
+    default: op

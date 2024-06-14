@@ -1,0 +1,10 @@
+name: CuboebPluginDanyBosses
+version: 1.0
+main: org.example.Main
+api-version: 1.20
+
+
+commands:
+  spawnboss:
+    description: Спавн боссов
+    usage: /<command> <BossName>
